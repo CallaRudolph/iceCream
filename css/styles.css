@@ -1,0 +1,14 @@
+.jumbotron{
+  background-color: pink;
+  text-align: center;
+}
+body{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7b/73/de/7b73defd87163731bcff30976be00e0c.png);
+  background-repeat: repeat;
+}
+.panel-head{
+  background-color: powderblue;
+}
+.panel-body{
+  background-color: lemonchiffon;
+}
