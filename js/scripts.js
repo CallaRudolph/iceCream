@@ -3,10 +3,11 @@ $(function(){
 
   var kinds = ["Amaretto Cherry", "Spamoni", "Dulce de Leche", "Bourbon Pecan"];
 
-  var counter = 0;
 
-  flavors.forEach(function(flavor){
-    $("#" + flavor).prepend(kinds[counter]);
-    counter += 1;
-  });
+  for (var i = 0; i <= kinds.length - 1; i += 1) {
+    $("#" + flavors[i]).prepend(kinds[i]);
+  }
+  // flavors.forEach(function(flavor){
+  //   $("#" + flavor).prepend(kinds[counter]);
+  //   counter += 1;
 });
